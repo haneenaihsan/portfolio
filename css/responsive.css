@@ -180,6 +180,12 @@
     /* justify-content: center; */
     margin-left: 75px;
 }
+#service {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: -97px;
+}
 #hero {
     width: 589px;
 }
@@ -214,6 +220,13 @@ section#contact {
 }
 .icons-cnct {
     margin-left: 445px;
+}
+#service {
+    display: flex;
+    margin-top: 420px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 75px;
 }
 }
 @media screen and (max-width:332px){
