@@ -4,7 +4,8 @@
 @media screen and (max-width:1200px){
 .web-1, .web-2, .web-3 {
     width: 340px;
-    height: 210px;
+    height: 300px;
+    margin-left: 27px;
     margin-left: 27px;
 }
 .btns {
@@ -105,7 +106,7 @@
 }
 .explore-btn {
     margin-left: 52px;
-    margin-top: -27px;
+    margin-top: 55px;
 }
 #about {
     margin-left: 14px;
@@ -146,6 +147,24 @@
 .paragraph {
     padding-left: 20px;
     text-align: center;
+}
+.timeline__event__icon {
+    margin: 0 auto 20px;
+}
+.timeline__event {
+    flex-direction: column !important;
+    width: 70vw;
+}
+.timeline__event__content, .timeline__event__date {
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+.timeline__event__content, .timeline__event__date {
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+.work p {
+    width: 50%;
 }
 
 }

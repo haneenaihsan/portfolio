@@ -116,6 +116,7 @@ button{
     padding: 5px 10px;
     color: #252C3F;
     font-weight: 500;
+    cursor: pointer;
 }
 .resume img {
     height: 25px;
@@ -239,6 +240,9 @@ color: #252C3F;
 }
 .paragraph h3 {
     margin-bottom: 52px;
+      color: #252C3F;
+     font-family: 'Merienda One';
+     font-size: 38px;
 }
 .gap-3 {
     gap: 1rem!important;
@@ -391,6 +395,37 @@ color: #252C3F;
 .box-desc p{
     max-width: 80%;
 }
+/* WRK */
+#work {
+    background-color: #252C3F;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 100px;
+}
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.work h2 {
+    color: white;
+}
+.work p {
+    width: 20%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.work-btn {
+    background-color: #f0f0ee ;
+    padding: 15px 40px;
+    color: #252C3F;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
 /* potfolio */
 #portfolio {
     padding-top: 120px;
@@ -422,7 +457,7 @@ h3::after {
 .web-1 {
     background-image: url(../img/burger.png);
     width: 450px;
-    height: 300px;
+    height: 400px;
     background-size: cover;
     border-radius: 15px;
     filter: grayscale(1);
@@ -437,7 +472,7 @@ h3::after {
 .web-2 {
     background-image: url(../img/smoothie.png);
     width: 450px;
-    height: 300px;
+    height: 400px;
     background-size: cover;
     border-radius: 15px;
     filter: grayscale(1);
@@ -482,7 +517,7 @@ h3::after {
 .web-3 {
     background-image: url(../img/Pink\ Modern\ Website\ Coming\ Soon\ Instagram\ Post.jpg);
     width: 450px;
-    height: 300px;
+    height: 400px;
     background-size: cover;
     border-radius: 15px;
     filter: grayscale(1);
@@ -492,6 +527,92 @@ h3::after {
 }
 .web-3:hover{
     filter: grayscale(0);
+}
+/* education */
+#education {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#education h3 {
+    /* margin-bottom: 60px; */
+    /* margin-right: 20px; */
+    font-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      color: #252C3F;
+     font-family: 'Merienda One';
+     font-size: 38px;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    position: relative;
+}
+.timeline__event {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    margin: 50px 0;
+    border-radius: 5px;
+    align-self: center;
+    width: 50vw;
+}
+.timeline__event__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #252C3F !important;
+    padding: 40px;
+    align-self: center;
+    margin: 0 20px;
+    background: #252c3f9f;
+    border-radius: 100%;
+    width: 40px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    height: 40px;
+    position: relative;
+}
+
+.timeline__event__date {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: #252C3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 0 20px;
+    border-radius: 5px 0 0 5px;
+    width: 120px;
+}
+.timeline__event:nth-child(2n+1) {
+    flex-direction: row-reverse;
+}
+.timeline__event__content {
+    padding: 30px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    background: #fff;
+    width: calc(40vw - 84px);
+    border-radius: 0 5px 5px 0;
+}
+.timeline__event__title {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #252C3F;
+    letter-spacing: 1.5px;
+}
+.timeline__event__content p {
+    margin-top: 10px;
+    color: #252C3F;
 }
 /* contact */
 .contact {
@@ -585,7 +706,15 @@ input, textarea {
     outline: none;
     border-bottom: 1px solid rgb(204, 204, 204);
 }
-
+input, textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    border-style: none none solid;
+    outline: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    background-color: #f0f0ee;
+}
 .submit {
     display: flex;
     align-items: center;
@@ -606,6 +735,7 @@ input, textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+    background-color: #f0f0ee;
 }
 label {
     display: inline-block;
@@ -621,4 +751,3 @@ label {
     padding: 20px 10px;
     border-radius: 5px;
 }
-/* footer */
