@@ -221,13 +221,7 @@ section#contact {
 .icons-cnct {
     margin-left: 445px;
 }
-#service {
-    display: flex;
-    margin-top: 420px;
-    /* align-items: center; */
-    /* justify-content: center; */
-    margin-left: 75px;
-}
+
 }
 @media screen and (max-width:332px){
    #about {
