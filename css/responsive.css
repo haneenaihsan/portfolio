@@ -206,3 +206,9 @@ section#contact {
     margin-left: 445px;
 }
 }
+@media screen and (max-width:392px){
+   #about {
+    margin-left: 28px;
+    margin-right: -174px;
+}
+}
