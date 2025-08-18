@@ -173,4 +173,35 @@
 #hero {
     width: 589px;
 }
+.left-cnt {
+    margin-left: 129px;
+}
+#about {
+    margin-left: 29px;
+}
+.icons {
+    margin-left: 125px;
+    margin-top: -57px;
+}
+.paragraph p {
+    font-size: 15px;
+    padding: 5px 27px;
+}
+#work {
+    width: 590px;
+}
+#portfolio {
+    margin-left: 65px;
+}
+#education {
+    /* padding-top: 199px; */
+    margin-top: 200px;
+    padding-bottom: 1px;
+}
+section#contact {
+    margin-left: 8px;
+}
+.icons-cnct {
+    margin-left: 445px;
+}
 }
