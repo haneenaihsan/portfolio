@@ -168,9 +168,9 @@
 }
 
 }
-@media screen and (max-width:674px){
+@media screen and (max-width:576px){
 
 #hero {
-    width: 533px;
+    width: 589px;
 }
 }
