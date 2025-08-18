@@ -166,7 +166,11 @@
 .work p {
     width: 50%;
 }
-
+#tools {
+    margin-left: 68px;
+    margin-top: 359px;
+    margin-right: -110px;
+}
 }
 @media screen and (max-width:576px){
 
@@ -212,7 +216,8 @@ section#contact {
     margin-right: -174px;
 }
 #tools {
-    margin-left: 110px;
-    width: 100%;
+    margin-left: 68px;
+    margin-top: 359px;
+    margin-right: -110px;
 }
 }
