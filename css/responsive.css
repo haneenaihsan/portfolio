@@ -180,6 +180,30 @@
     /* justify-content: center; */
     margin-left: 75px;
 }
+.srvc-sectn p{
+    text-align: center;
+    max-width: 90%;
+}
+.portfolio h3 {
+    justify-content: center;
+    color: #252C3F;
+    font-family: 'Merienda One';
+    font-size: 32px;
+    text-align: center;
+    margin-right: -132px;
+}
+#education h3 {
+    font-display: flex;
+    color: #252C3F;
+    font-family: 'Merienda One';
+    font-size: 32px;
+    text-align: center;
+    margin-right: 12px;
+}
+.abt-ig {
+    margin-top: 60px;
+    margin-left: 35px;
+}
 .left-cnt h1 {
     margin-left: 48px;
 }
