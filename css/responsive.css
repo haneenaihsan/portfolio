@@ -215,6 +215,7 @@
     /* padding-top: 199px; */
     margin-top: 200px;
     padding-bottom: 1px;
+    margin-left: 178px;
 }
 section#contact {
     margin-left: 8px;
@@ -223,13 +224,6 @@ section#contact {
 .icons-cnct {
     margin-left: 445px;
 }
-#education {
-    /* padding-top: 199px; */
-    margin-top: 200px;
-    padding-bottom: 1px;
-    margin-left: 178px;
-}
-
 }
 @media screen and (max-width:332px){
    #about {
