@@ -180,7 +180,15 @@
     /* justify-content: center; */
     margin-left: 75px;
 }
-
+.left-cnt h1 {
+    margin-left: 48px;
+}
+.icons-2 {
+    margin-left: 28px;
+}
+.left-cnt h2 {
+    margin-left: -30px;
+}
 #service {
     display: flex;
     margin-top: 40px;
