@@ -20,6 +20,8 @@ body{
     z-index: 100;
     position: fixed;
 }
+
+
 .header-cnt{
     display: flex;
     width: 100%;
@@ -35,6 +37,12 @@ nav{
 }
 nav ul a{
     padding: 15px 25px;
+}
+.toggle-bt {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 /* nav{
     display: flex;
@@ -73,12 +81,16 @@ header nav ul a:hover::before {
   width: 100%;
   left: 0;
 }
-button{
-    background-color: #8089a1;
+span a{
+    background-color: #49536c;
     padding: 10px 15px;
     color: #f0f0ee;
     border-radius: 20px;
     text-decoration: none !important;
+}
+span a:hover{
+    background-color: #f0f0ee;
+    color: #252C3F;
 }
 
 

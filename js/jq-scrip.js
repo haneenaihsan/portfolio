@@ -1,12 +1,6 @@
-// $(document).ready(function(){
-//     $(window).works(function(){
-//         var scrollHeight = $(window).scrollTop();
-
-//         if(scrollHeight >= 50){
-//             $('header').addClass('updated');
-//         } else {
-//             $('header').removeClass('updated');
-//         }
-//     });
-// });
-
+$(document).ready(function(){
+    $('.toggle-bt').click(function(){
+        $('toggle-bt').toggleClass('toggled');
+        $('.header-2 nav ul').toggleClass('toggled');
+    })
+})
