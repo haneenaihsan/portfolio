@@ -791,3 +791,42 @@ label {
     padding: 20px 10px;
     border-radius: 5px;
 }
+.portfolio-sectn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #252C3F;
+    margin-top: 70px;
+    margin-bottom: 76px;
+}
+.portfolio-sectn h1 {
+  color: #252C3F;
+     font-family: 'Merienda One';
+     font-size: 38px;
+  
+}
+.portfolio-1 {
+    height: 655px;
+    width: 100%;
+    /* overflow: hidden; */
+    filter: grayscale(1);
+    transition: 0.4 all ease;
+}
+.portfolio-1:hover{
+    filter: grayscale(0);
+}
+.portfolio-1 img {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    border-radius: 15px;
+    /* filter: grayscale(1); */
+    object-fit: cover;
+    object-position: center top;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
